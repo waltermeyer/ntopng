@@ -1,0 +1,7 @@
+ntopng:
+  image: waltermeyer/ntopng
+  links:
+   - redis:redis
+  net: "host"
+redis:
+  image: redis:latest
